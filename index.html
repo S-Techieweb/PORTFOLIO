@@ -697,15 +697,15 @@
                 <form action="javascript:sendmail()" method="post">
                   <div class="field"><br>
                     <label for="message">Name</label>
-                    <input type="text" class="form-control" name="Name" id="Name" placeholder=" Enter Name" >
+                    <input type="text" class="form-control" name="Name" id="Name" placeholder=" Enter Name" required >
                   </div>
                   <div class="field"><br>
                     <label for="message">E-mail</label>
                     <input type="email" class="form-control" name="Sender" id="Sender" placeholder=" Enter Email"
-                      ><br>
+                      required ><br>
                   </div>
                   <label for="message">Message</label>
-                  <textarea name="Message" class="form-control" rows="4" id="Message" placeholder="Message"
+                  <textarea name="Message" class="form-control" rows="4" id="Message" placeholder="Message"required
                   ></textarea>
                   <div class="sub-main">
                     <button class="button-two" ><span>Send Message</span></button>
