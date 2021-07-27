@@ -504,11 +504,13 @@ padding-top: 40px;
   
 /*Button Two*/
 .button-two {
+    display: block;
     border-radius: 40px;
     background-image: linear-gradient(315deg, #0065ff, #6942ef, #008cff, #0065ff);
     border: none;
     padding: 10px;
     width: 170px;
+    margin: 10px auto;
     transition: all 0.3s;
 
   }  
@@ -538,7 +540,7 @@ padding-top: 40px;
     opacity: 1;
     right: 0;
   }
-  
+/*    button-two ends */
   
 /* contact section ends */
  
