@@ -504,29 +504,29 @@ padding-top: 40px;
   
 /*Button Two*/
 .button-two {
-    border-radius: 10px;
-    background-color:#3c50ff;
+    border-radius: 40px;
+    background-image: linear-gradient(315deg, #0065ff, #6942ef, #008cff, #0065ff);
     border: none;
     padding: 10px;
     width: 170px;
-    transition: all 0.5s;
-  }
-  
-  
+    transition: all 0.3s;
+
+  }  
   .button-two span {
     cursor: pointer;
     display: inline-flex;
     position: relative;
     transition: 0.5s;
+    font-family: 500;
   }
   
   .button-two span:after {
-    content: '»';
+    content: '>>';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.5s;
+    transition: 0.3s;
   }
   
   .button-two:hover span {
