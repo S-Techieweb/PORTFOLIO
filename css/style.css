@@ -541,7 +541,17 @@ padding-top: 40px;
     right: 0;
   }
 /*    button-two ends */
-  
+    .reset{
+        background: none!important;
+        border: none;
+        padding: 0!important;
+        font-family: 'Poppins',arial, sans-serif;
+        color: #616664;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+  }
+      
 /* contact section ends */
  
 
