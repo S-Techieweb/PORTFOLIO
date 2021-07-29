@@ -518,6 +518,18 @@ padding-top: 40px;
 .sub-main{
     margin:12px;
   }
+
+  /* error message */
+ /* .container #error_message{
+      margin-bottom: 20px;
+      padding-left: 0px;
+      background-color: #fe8b8e;
+      text-align: center;
+      font-size: 14px;
+      transition: all 0.5s ease;
+      border-radius: 10px;
+  }
+   */
 /*Button Two*/
 .button-two {
     border-radius: 40px;
@@ -596,20 +608,20 @@ padding-top: 40px;
         
     }
     .navbar .toggler-icon{
-        width: 22px;
-        height: 3px;
+        width: 18px;
+        height: 2px;
     }
     .stickyadd .toggler-icon{
-        width: 22px;
-        height: 3px;
+        width: 18px;
+        height: 2px;
      
     }
     .navbar-toggler .top-bar{
         transform: rotate(45deg);
-        transform-origin: 0%;
+        transform-origin: -4%;
     }
     .navbar-toggler .bottom-bar{
         transform: rotate(-45deg);
-        transform-origin: 0% ;
+        transform-origin: -4% ;
     }
     }
