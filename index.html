@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>PORTFOLIO</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="images/IMG_20210624_022516.jpg">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libary/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -20,9 +22,11 @@
 <body>
   <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Port<span class="span" style="color: #ffd517; font-weight:500;">folio</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSprofileskillsportedContent" aria-controls="navbarSprofileskillsportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars hamburger"></i></span> 
+      <a class="navbar-brand" href="#">Port<span class="span">folio</span></a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSprofileskillsportedContent">
+          <span class="toggler-icon top-bar"></span> 
+        <span class="toggler-icon middle-bar"></span> 
+        <span class="toggler-icon bottom-bar"></span> 
       </button>
       <div class="collapse navbar-collapse" id="navbarSprofileskillsportedContent">
         <ul class="navbar-nav mx-auto">
@@ -52,13 +56,11 @@
     </div>
   </nav>   
   <!-- navigation ends -->
-
   <header id="home">
     <div class="container-fluid header-content">
       <div class="row">
         <div class="col text-center">
           <div class="content-box">
-            <!-- <h4>Hello</h4> -->
             <h3> Hello I'M <span class="about-span" style="color: #ffd517; font-weight:600; font-family:'Yantramanav';"> Gopi Shiva</span></h3>
             <h1>An <span class="element"></span></h1>
             <p>From India</p>
@@ -82,9 +84,9 @@
           <p class="about_content">I’m a hard working and dedicated professional front-end developer/user interface designer with a keen eye for detail, and a determination to deliver the very highest quality.</p>
           <p class="about_content">I have a special interest in use of animation on the web. I particularly like working on websites that have seamless transitions and require high-level performance to maintain a smooth and appealing website.</p>
           <p class="about_content">I take great pride in my work, and I always try to better myself with every project I work on</p> 
-         <div class="content-box-2">
+          <div class="content-box-2">
             <a href="Resume.pdf" download="Resume" class="btn">Download CV</a>
-           </div>      
+           </div>    
           <div><br>
         <ul class="list-inline">
         <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fb"></i></a></li>
@@ -278,7 +280,9 @@
 			</div>
 		</div>
 	</section>
-<section class="work" id="work-section">
+
+<!-- services section ends here -->
+   <section class="work" id="work-section">
      <div class="container">
        <h2 class=" w text-center">my work</h2>
        <p class=" section-title text-center"> You can see my latest works here...</p><br>
@@ -361,19 +365,18 @@
                 <form action="javascript:sendmail()" method="post">
                   <div class="field"><br>
                     <label for="message">Name</label>
-                    <input type="text" class="form-control" name="Name" id="Name" placeholder=" Enter Name" required >
+                <input type="text" class="form-control" name="Name" id="Name" placeholder=" Enter Name" required>
                   </div>
                   <div class="field"><br>
                     <label for="message">E-mail</label>
-                    <input type="email" class="form-control" name="Sender" id="Sender" placeholder=" Enter Email"
-                      required ><br>
+            <input type="email" class="form-control" name="Sender" id="Sender" placeholder=" Enter Email" required><br>
                   </div>
                   <label for="message">Message</label>
-                  <textarea name="Message" class="form-control" rows="4" id="Message" placeholder="Message"required
+                  <textarea name="Message" class="form-control" rows="4" id="Message" placeholder="Message" required
                   ></textarea>
                   <div class="sub-main">
-                    <button class="button-two" ><span>Send Message</span></button>
-		<button class="reset"type="reset" value="Reset">Reset Form</button>
+                    <button class="button-two"><span>Send Message</span></button>
+                    <button class="reset"type="reset" value="Reset">Reset Form</button>
                   </div> 
                 </form>
               </div>
