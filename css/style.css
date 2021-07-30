@@ -489,6 +489,31 @@ transform: translateX(-50%);
     transition: 0.5s all;
     font-weight: 00;
 }
+.button {
+    width: 200px;
+	background-color: #7824d8;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+    font-family: 'Poppins';
+	text-transform: capitalize;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    transition: all 0.3s;
+    display: block;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+/* work section ends */
 .contact_us{
 color: white;
 background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('..//images/blurry-1714335_19201.jpg');
@@ -519,6 +544,7 @@ padding-top: 40px;
     margin:12px;
   }
 
+  
 /*Button Two*/
 .button-two {
     border-radius: 40px;
@@ -529,7 +555,6 @@ padding-top: 40px;
     margin: 10px auto;
     transition: all 0.3s;
     display: block;
-
   }  
 
   .button-two span {
@@ -567,6 +592,7 @@ padding-top: 40px;
         font-weight: bold;
         text-decoration: none;
         cursor: pointer;
+        display: block;
   }
       
   
