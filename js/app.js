@@ -50,7 +50,7 @@ function sendmail(){
 
   Email.send({
         SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-    To: 'shivatechieweb@gmail.com',
+    To: 'stechieweb@gmail.com',
     From: " S-Techieweb@gmail.com",
     Subject: "New message "+name,
     Body: Body
