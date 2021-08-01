@@ -654,6 +654,31 @@ padding-top: 40px;
     transform: translateY(-4px);
     transition:0.3s;
 }
+ 
+/* scroolup */
+.to-top{
+    background: #585656;
+    position: fixed;bottom: 16px;
+    right: 32px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: all.10s;
+}
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    text-decoration: none;
+}
 
 
 /* media */
@@ -695,5 +720,12 @@ padding-top: 40px;
     .navbar-toggler .bottom-bar{
         transform: rotate(-45deg);
         transform-origin: -4% ;
+    }
+	    .to-top{
+        background: #4f55ee;
+       font-size: 18px;
+        height: 40px;
+        width: 40px;
+       
     }
     }
